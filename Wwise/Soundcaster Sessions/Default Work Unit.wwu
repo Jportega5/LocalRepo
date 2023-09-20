@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1228B700-6C92-46AE-B516-FF58CEFC8BC9}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1228B700-6C92-46AE-B516-FF58CEFC8BC9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1228B700-6C92-46AE-B516-FF58CEFC8BC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Default" ID="{B134B43F-58F7-4B5C-B0DC-61FBD0E5555F}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Skate_Begin" ID="{9DE41B74-7ECA-4112-8EED-62E653D948C2}" WorkUnitID="{E2B61611-5107-4E1B-83EA-63E7790F4CEE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Skate_Trick" ID="{DACEA93D-B87D-4055-979E-A0D420B6BB34}" WorkUnitID="{E2B61611-5107-4E1B-83EA-63E7790F4CEE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Skate_End" ID="{BCC4D8E5-9258-4944-9BE6-5CAD61FAC7CA}" WorkUnitID="{E2B61611-5107-4E1B-83EA-63E7790F4CEE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Rolling" ID="{8A0BAF68-C51B-47EE-9FB9-1A445FB14A4C}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

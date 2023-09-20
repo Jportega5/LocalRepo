@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E2B61611-5107-4E1B-83EA-63E7790F4CEE}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E2B61611-5107-4E1B-83EA-63E7790F4CEE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E2B61611-5107-4E1B-83EA-63E7790F4CEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Skate_Begin" ID="{9DE41B74-7ECA-4112-8EED-62E653D948C2}">
+					<ChildrenList>
+						<Action Name="" ID="{AD42D583-AF3E-4379-BCB9-F4CEF4B47638}" ShortID="605578647">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rolling" ID="{8A0BAF68-C51B-47EE-9FB9-1A445FB14A4C}" WorkUnitID="{CECAE4F8-9024-4244-B87E-567958BCF81B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0649703-AFD4-487A-B808-978F59B5543A}" ShortID="942858381">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate" ID="{4A1093C5-0A34-4F0E-90B9-E5C79A3080E8}" WorkUnitID="{0665EC4F-75C7-41A0-9568-52E0022D6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Skate_End" ID="{BCC4D8E5-9258-4944-9BE6-5CAD61FAC7CA}">
+					<ChildrenList>
+						<Action Name="" ID="{E8E61D6F-884D-48E6-8A32-F8226BA1881A}" ShortID="435414298">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skate" ID="{4A1093C5-0A34-4F0E-90B9-E5C79A3080E8}" WorkUnitID="{0665EC4F-75C7-41A0-9568-52E0022D6835}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Skate_Trick" ID="{DACEA93D-B87D-4055-979E-A0D420B6BB34}">
+					<ChildrenList>
+						<Action Name="" ID="{F12F4C6E-C460-49AA-B4B5-7D0ABB8C1B96}" ShortID="674700016">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trick" ID="{EB19D210-7942-4636-BD17-93B897878B4E}" WorkUnitID="{CECAE4F8-9024-4244-B87E-567958BCF81B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D0C2CF0-437E-4B2D-A981-24677DF3DDBA}" ShortID="975247517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rolling" ID="{8A0BAF68-C51B-47EE-9FB9-1A445FB14A4C}" WorkUnitID="{CECAE4F8-9024-4244-B87E-567958BCF81B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
